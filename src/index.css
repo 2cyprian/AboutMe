@@ -1,4 +1,6 @@
 :root {
+  font-family: "League Spartan", serif;
+  font-optical-sizing: auto;
   line-height: 1.5;
   font-weight: 200;
   font-style: normal;
@@ -9,14 +11,19 @@
   --secondary-color:#403E3E;
   --secondary-100:#F5F5F5;
   --text-color:#01E78F;
-  --text-100:#A4A4A4;
+  --text-100:#666;
 
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+body{
+  background-color: var(--primary-color);
+}
+
 
 a{
   text-decoration: none;
