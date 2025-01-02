@@ -23,16 +23,20 @@
 .nav-links button {
     padding: 10px;
     text-decoration: none;
-    color: #fff;
-    background-color: #444;
+    color: var(--secondary-100);
+    background-color: var(--text-100);
     border-radius: 5px;
     text-align: center;
     transition: background-color 0.3s ease;
 }
 
-.nav-links button.active, .nav-links button:hover {
+.nav-links button.active{
     background-color: var(--text-color);
-    color: #000;
+    color: var(--primary-color);
+}
+.nav-links button:hover {
+    border: 2px solid var(--text-color);
+    background-color: var(--text-100);
 }
 
 .right-section {
@@ -55,10 +59,7 @@
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.about{
-    
-    
-}
+
 
 .card .date {
     color: var(--text-color);
